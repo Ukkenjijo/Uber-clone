@@ -1,0 +1,287 @@
+/* color 000000 fffff
+   font size-title 24px 
+   nav links-14px
+   hero_text-52px
+   container title-36px
+   footer__title-18px
+
+
+*/
+
+@font-face {
+   font-family: UberText;
+   src: url("UberMoveTextRegular.otf");
+}
+
+@font-face {
+   font-family: UberMove;
+   src: url("UberMoveBold.otf");
+}
+
+@font-face {
+   font-family: UberText;
+   src: url("UberMoveTextBold.otf");
+   font-weight: bold;
+}
+
+body {
+   font-family: UberText;
+}
+
+
+.navbar {
+   background-color: black;
+}
+
+.navbar-dark .navbar-brand {
+   color: white;
+   font-size: 24px;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+   color: white;
+   font-size: 0.875em;
+
+
+
+}
+
+
+#signup {
+   border-radius: 30px;
+   margin-left: 0.525em;
+   margin-right: 0.528em;
+   font-size: 0.875em;
+   font-weight: 500;
+
+}
+
+.hero {
+   background-color: black;
+   color: white;
+
+}
+
+.form-floating {
+   color: black;
+}
+.p-5{
+   padding:4em !important;
+}
+
+/* .hero--img {
+   width: 34.375rem;
+
+} */
+
+.hero--text {
+   width: 80%;
+
+}
+
+.hero--text h1 {
+   font-family: UberMove;
+   font-size: 3.25em;
+   font-weight: bold;
+
+
+}
+
+.hero--text h2 {
+   font-family: UberMove;
+   font-size: 2.25em;
+   font-weight: bold;
+
+
+}
+
+.hero--text .btn {
+   font-weight: bold;
+   padding: 12px 25px;
+   border-radius: .5em;
+}
+
+.hero_2 .btn {
+   color: white;
+   background-color: black;
+   padding: 12px 25px;
+   border-radius: .5em;
+}
+
+.hero_2 .bt-next {
+   vertical-align: middle;
+   text-decoration: underline;
+}
+
+.uber-toggler-icon {
+   color: aliceblue
+}
+
+.hero_3 {
+   background-color: #f6f6f6;
+}
+
+.app-card {
+   background-color: white;
+}
+
+.app-card h4 {
+   font-family: UberMove;
+}
+
+.app-card img {
+   width: 150px;
+}
+
+footer {
+   background-color: black;
+   color: white;
+}
+
+footer a {
+   text-decoration: none;
+   color: white;
+}
+
+footer a:hover {
+
+   color: #afafaf;
+}
+
+footer ul li {
+   list-style-type: none;
+   font-size: 1.1em;
+   margin-bottom: 1.25em;
+
+}
+
+footer ul li a:hover {
+   color: #afafaf;
+
+}
+
+footer ul {
+   padding: 0;
+   margin: 0;
+
+}
+
+footer ul li:first-child {
+   font-size: 1.1250em;
+   font-weight: bold;
+}
+
+#locatn-hover a:hover {
+   color: #ffffff;
+}
+
+#icon-hover {
+   cursor: pointer;
+}
+
+.download img {
+   max-width:128px;
+   height:auto;
+
+}
+
+.copyright p,
+a {
+   font-size: 0.75em;
+   color: #afafaf;
+}
+
+.copyright a {
+   color: #afafaf;
+}
+
+.copyright a:hover {
+   color: #4b4b4b;
+}
+
+#scrollToTopBtn {
+   
+   position:fixed;
+   bottom:1em;
+   right:1.15em;
+   background-color:white;
+   border: none;
+   color: rgb(0, 0, 0);
+   cursor: pointer;
+   border-radius: 70%;
+   font-weight: bold;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 8px;
+  
+   font-size: 18px;
+   line-height: 48px;
+   width:50px;
+   transition: all 500ms ease 0s;
+   transform: translateY(2px);
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+   .navbar-dark .navbar-brand {
+
+      font-size: 20px;
+
+   }
+
+   /* .hero--img {
+      width: calc(34.375em / 1.3);
+
+   } */
+
+   .hero--text h1 {
+
+      font-size: 2.25em;
+
+
+
+   }
+
+   .hero--text {
+      width: 100%;
+
+   }
+
+   .download img {
+      max-width: 150px;
+      height: auto;
+
+   }
+
+
+}
+
+@media only screen and (width <=360px) {
+   .navbar-dark .navbar-brand {
+
+      font-size: 20px;
+
+   }
+
+   .hero--text h1 {
+
+      font-size: 2.25em;
+
+
+
+   }
+
+   .app-card img {
+      width: calc(150px/3);
+   }
+
+
+
+}
